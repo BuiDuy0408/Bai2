@@ -41,6 +41,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label13.Location = new System.Drawing.Point(38, 84);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(97, 21);
@@ -51,6 +52,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label2.Location = new System.Drawing.Point(81, 115);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 21);
@@ -94,12 +96,13 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.label3.Location = new System.Drawing.Point(62, 42);
+            this.label3.ForeColor = System.Drawing.Color.Red;
+            this.label3.Location = new System.Drawing.Point(105, 34);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(333, 22);
+            this.label3.Size = new System.Drawing.Size(243, 22);
             this.label3.TabIndex = 22;
-            this.label3.Text = "Đăng nhập hệ thống quản lý trường học";
+            this.label3.Text = "Hệ thống quản lý trường học";
+            this.label3.UseMnemonic = false;
             // 
             // frmDangNhap
             // 
