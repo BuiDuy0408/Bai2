@@ -33,6 +33,26 @@ namespace Bai2_TruongTHPT
             btnThem_HS.Enabled = btnSua_HS.Enabled = btnXoa_HS.Enabled = false;
             btnLuu_HS.Enabled = true;
         }
+        public void SetNull()
+        {
+            txtMa_HS.Text = txtHoTen_HS.Text = txtDiaChi.Text = txtPhuHuynh.Text = cbGT_HS.Text = cbLop.Text = cbTK_HS.Text = txtTK_HS.Text = "";
+            dtpNgaySinh_HS.Text = DateTime.Now.ToShortDateString();
+        }
 
+        private void dgvHocSinh_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+                txtMa_HS.Text = dgvHocSinh.Rows[e.RowIndex].Cells[0].Value.ToString();
+                txtHoTen_HS.Text = dgvHocSinh.Rows[e.RowIndex].Cells[1].Value.ToString();
+                cbGT_HS.Text = dgvHocSinh.Rows[e.RowIndex].Cells[2].Value.ToString();
+                dtpNgaySinh_HS.Text = dgvHocSinh.Rows[e.RowIndex].Cells[3].Value.ToString();
+                txtDiaChi.Text = dgvHocSinh.Rows[e.RowIndex].Cells[4].Value.ToString();
+                txtPhuHuynh.Text = dgvHocSinh.Rows[e.RowIndex].Cells[5].Value.ToString();
+                cbLop.Text = dgvHocSinh.Rows[e.RowIndex].Cells[6].Value.ToString();
+            }
+            catch
+            { }
+        }
     }
 }
