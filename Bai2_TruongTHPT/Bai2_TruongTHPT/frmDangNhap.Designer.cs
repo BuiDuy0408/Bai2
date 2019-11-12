@@ -37,6 +37,7 @@
             this.btnThoat = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,14 +65,14 @@
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(158, 86);
+            this.txtUserName.Location = new System.Drawing.Point(148, 154);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(150, 20);
             this.txtUserName.TabIndex = 18;
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(158, 112);
+            this.txtPass.Location = new System.Drawing.Point(136, 180);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(150, 20);
@@ -79,7 +80,7 @@
             // 
             // btnDangNhap
             // 
-            this.btnDangNhap.Location = new System.Drawing.Point(158, 158);
+            this.btnDangNhap.Location = new System.Drawing.Point(158, 221);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(128, 43);
             this.btnDangNhap.TabIndex = 20;
@@ -88,7 +89,7 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(387, 226);
+            this.btnThoat.Location = new System.Drawing.Point(385, 280);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(75, 23);
             this.btnThoat.TabIndex = 21;
@@ -100,7 +101,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(105, 34);
+            this.label3.Location = new System.Drawing.Point(105, 83);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(243, 22);
             this.label3.TabIndex = 22;
@@ -111,11 +112,22 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(354, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(354, 59);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(218, 215);
             this.pictureBox1.TabIndex = 23;
             this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(-40, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(314, 25);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "                   Design by Thanh    ";
             // 
             // frmDangNhap
             // 
@@ -123,7 +135,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(656, 261);
+            this.ClientSize = new System.Drawing.Size(656, 336);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnThoat);
@@ -152,5 +165,6 @@
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
