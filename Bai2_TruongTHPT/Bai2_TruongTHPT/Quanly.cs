@@ -16,5 +16,15 @@ namespace Bai2_TruongTHPT
         {
             InitializeComponent();
         }
+
+        private void btnTim_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
