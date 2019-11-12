@@ -52,6 +52,7 @@
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnHuy = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.txtTKGV = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -172,7 +173,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(235, 213);
+            this.label8.Location = new System.Drawing.Point(73, 213);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(64, 17);
@@ -185,7 +186,7 @@
             this.cbTKGV.Items.AddRange(new object[] {
             "Mã",
             "Họ Tên"});
-            this.cbTKGV.Location = new System.Drawing.Point(307, 213);
+            this.cbTKGV.Location = new System.Drawing.Point(145, 210);
             this.cbTKGV.Margin = new System.Windows.Forms.Padding(4);
             this.cbTKGV.Name = "cbTKGV";
             this.cbTKGV.Size = new System.Drawing.Size(160, 24);
@@ -288,11 +289,20 @@
             this.dataGridView1.Size = new System.Drawing.Size(1421, 150);
             this.dataGridView1.TabIndex = 61;
             // 
+            // txtTKGV
+            // 
+            this.txtTKGV.Location = new System.Drawing.Point(313, 213);
+            this.txtTKGV.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTKGV.Name = "txtTKGV";
+            this.txtTKGV.Size = new System.Drawing.Size(235, 22);
+            this.txtTKGV.TabIndex = 62;
+            // 
             // Giao_Vien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1407, 525);
+            this.Controls.Add(this.txtTKGV);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.btnXoa);
@@ -351,5 +361,6 @@
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnHuy;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox txtTKGV;
     }
 }
