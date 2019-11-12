@@ -42,6 +42,10 @@
             this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.cbTKGV = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.cbMonHoc = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -174,17 +178,59 @@
             this.cbTKGV.Items.AddRange(new object[] {
             "Mã",
             "Họ Tên"});
-            this.cbTKGV.Location = new System.Drawing.Point(307, 210);
+            this.cbTKGV.Location = new System.Drawing.Point(307, 213);
             this.cbTKGV.Margin = new System.Windows.Forms.Padding(4);
             this.cbTKGV.Name = "cbTKGV";
             this.cbTKGV.Size = new System.Drawing.Size(160, 24);
             this.cbTKGV.TabIndex = 47;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(707, 26);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(64, 17);
+            this.label7.TabIndex = 48;
+            this.label7.Text = "Môn Học";
+            // 
+            // cbMonHoc
+            // 
+            this.cbMonHoc.FormattingEnabled = true;
+            this.cbMonHoc.Location = new System.Drawing.Point(779, 26);
+            this.cbMonHoc.Margin = new System.Windows.Forms.Padding(4);
+            this.cbMonHoc.Name = "cbMonHoc";
+            this.cbMonHoc.Size = new System.Drawing.Size(235, 24);
+            this.cbMonHoc.TabIndex = 49;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(707, 79);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(48, 17);
+            this.label4.TabIndex = 50;
+            this.label4.Text = "Lương";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(779, 79);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(235, 24);
+            this.comboBox1.TabIndex = 51;
             // 
             // Giao_Vien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1407, 525);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.cbMonHoc);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.cbTKGV);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtDiaChi);
@@ -222,5 +268,9 @@
         private System.Windows.Forms.TextBox txtDiaChi;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox cbTKGV;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox cbMonHoc;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
