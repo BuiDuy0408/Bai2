@@ -121,5 +121,85 @@ namespace Bai2_TruongTHPT
         {
 
         }
+
+        private void btnTim_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThoat_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLuu_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnXoa_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSua_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThem_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTiet_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboTenGV_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboTenMon_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
