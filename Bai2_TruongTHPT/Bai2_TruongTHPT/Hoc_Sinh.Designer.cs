@@ -42,6 +42,11 @@
             this.txtPhuHuynh = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.btnHuy = new System.Windows.Forms.Button();
+            this.btnLuu_HS = new System.Windows.Forms.Button();
+            this.btnXoa_HS = new System.Windows.Forms.Button();
+            this.btnSua_HS = new System.Windows.Forms.Button();
+            this.btnThem_HS = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtHoTen_HS
@@ -177,11 +182,66 @@
             this.label13.TabIndex = 66;
             this.label13.Text = "Ngày Sinh";
             // 
+            // btnHuy
+            // 
+            this.btnHuy.Location = new System.Drawing.Point(1022, 150);
+            this.btnHuy.Margin = new System.Windows.Forms.Padding(4);
+            this.btnHuy.Name = "btnHuy";
+            this.btnHuy.Size = new System.Drawing.Size(100, 42);
+            this.btnHuy.TabIndex = 75;
+            this.btnHuy.Text = "Hủy";
+            this.btnHuy.UseVisualStyleBackColor = true;
+            // 
+            // btnLuu_HS
+            // 
+            this.btnLuu_HS.Location = new System.Drawing.Point(1022, 91);
+            this.btnLuu_HS.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLuu_HS.Name = "btnLuu_HS";
+            this.btnLuu_HS.Size = new System.Drawing.Size(100, 42);
+            this.btnLuu_HS.TabIndex = 74;
+            this.btnLuu_HS.Text = "Lưu";
+            this.btnLuu_HS.UseVisualStyleBackColor = true;
+            // 
+            // btnXoa_HS
+            // 
+            this.btnXoa_HS.Location = new System.Drawing.Point(1022, 32);
+            this.btnXoa_HS.Margin = new System.Windows.Forms.Padding(4);
+            this.btnXoa_HS.Name = "btnXoa_HS";
+            this.btnXoa_HS.Size = new System.Drawing.Size(100, 42);
+            this.btnXoa_HS.TabIndex = 73;
+            this.btnXoa_HS.Text = "Xóa";
+            this.btnXoa_HS.UseVisualStyleBackColor = true;
+            // 
+            // btnSua_HS
+            // 
+            this.btnSua_HS.Location = new System.Drawing.Point(897, 91);
+            this.btnSua_HS.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSua_HS.Name = "btnSua_HS";
+            this.btnSua_HS.Size = new System.Drawing.Size(100, 42);
+            this.btnSua_HS.TabIndex = 72;
+            this.btnSua_HS.Text = "Sửa";
+            this.btnSua_HS.UseVisualStyleBackColor = true;
+            // 
+            // btnThem_HS
+            // 
+            this.btnThem_HS.Location = new System.Drawing.Point(897, 32);
+            this.btnThem_HS.Margin = new System.Windows.Forms.Padding(4);
+            this.btnThem_HS.Name = "btnThem_HS";
+            this.btnThem_HS.Size = new System.Drawing.Size(100, 42);
+            this.btnThem_HS.TabIndex = 71;
+            this.btnThem_HS.Text = "Thêm";
+            this.btnThem_HS.UseVisualStyleBackColor = true;
+            // 
             // Hoc_Sinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1181, 560);
+            this.Controls.Add(this.btnHuy);
+            this.Controls.Add(this.btnLuu_HS);
+            this.Controls.Add(this.btnXoa_HS);
+            this.Controls.Add(this.btnSua_HS);
+            this.Controls.Add(this.btnThem_HS);
             this.Controls.Add(this.txtDiaChi);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dtpNgaySinh_HS);
@@ -219,5 +279,10 @@
         private System.Windows.Forms.TextBox txtPhuHuynh;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button btnHuy;
+        private System.Windows.Forms.Button btnLuu_HS;
+        private System.Windows.Forms.Button btnXoa_HS;
+        private System.Windows.Forms.Button btnSua_HS;
+        private System.Windows.Forms.Button btnThem_HS;
     }
 }
