@@ -83,11 +83,12 @@
             // 
             // btnDangNhap
             // 
+            this.btnDangNhap.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnDangNhap.Location = new System.Drawing.Point(158, 221);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(128, 43);
-            this.btnDangNhap.TabIndex = 20;
-            this.btnDangNhap.Text = "Đăng nhập";
+            this.btnDangNhap.TabIndex = 24;
+            this.btnDangNhap.Text = "Submit";
             this.btnDangNhap.UseVisualStyleBackColor = true;
             // 
             // btnThoat
