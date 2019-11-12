@@ -39,6 +39,13 @@ namespace Bai2_TruongTHPT
             cboTenMon.Enabled = cboTenGV.Enabled = true;
             selection = 2;
         }
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            //MessageBox.Show(cboTenMon.SelectedValue.ToString());
+            ct.XoaCTGD(cboTenLop.ValueMember, cboTenMon.ValueMember);
+            //dataGridView1.DataSource = ct.Show(cboTenMon.Text);
+            MessageBox.Show("Xóa dữ liệu thành công");
+        }
         private void CboTenLop_SelectedIndexChanged(object sender, EventArgs e)
         {
 
