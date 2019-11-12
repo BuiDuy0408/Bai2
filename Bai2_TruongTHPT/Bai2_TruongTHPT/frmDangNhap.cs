@@ -18,7 +18,7 @@ namespace Bai2_TruongTHPT
         {
             InitializeComponent();
         }
-        DangNhap dn = new DangNhap();
+      /*  DangNhap dn = new DangNhap();
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
             if (dn.DangNhapHT(txtUserName.Text, txtPass.Text) == true)
@@ -53,6 +53,6 @@ namespace Bai2_TruongTHPT
         private void timer3_Tick(object sender, EventArgs e)
         {
             label1.ForeColor = Color.Red;
-        }
+        }*/
     }
 }
