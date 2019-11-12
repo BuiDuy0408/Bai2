@@ -50,6 +50,8 @@
             this.label9 = new System.Windows.Forms.Label();
             this.txtTK_HS = new System.Windows.Forms.TextBox();
             this.cbTK_HS = new System.Windows.Forms.ComboBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtHoTen_HS
@@ -265,11 +267,22 @@
             this.cbTK_HS.Size = new System.Drawing.Size(235, 24);
             this.cbTK_HS.TabIndex = 76;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(-3, 409);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(1189, 150);
+            this.dataGridView1.TabIndex = 79;
+            // 
             // Hoc_Sinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1181, 560);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtTK_HS);
             this.Controls.Add(this.cbTK_HS);
@@ -294,6 +307,7 @@
             this.Controls.Add(this.label16);
             this.Name = "Hoc_Sinh";
             this.Text = "Hoc_Sinh";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -323,5 +337,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtTK_HS;
         private System.Windows.Forms.ComboBox cbTK_HS;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
