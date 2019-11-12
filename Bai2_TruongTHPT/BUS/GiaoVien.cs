@@ -91,14 +91,14 @@ namespace BUS
             con.Close();
         }
         //lay thong tin mon hoc
-        //public DataTable LayThongTinMonHoc()
-        //{
-        //    string sql = "SELECT * FROM tblMonHoc";
-        //    SqlConnection con = new SqlConnection(ConnectDB.getconnect());
-        //    DataTable dt = new DataTable();
-        //    SqlDataAdapter da = new SqlDataAdapter(sql, con);
-        //    da.Fill(dt);
-        //    return dt;
-        //}
+        public DataTable LayThongTinMonHoc()
+        {
+            string sql = "SELECT * FROM tblMonHoc";
+            SqlConnection con = new SqlConnection(ConnectDB.getconnect());
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter(sql, con);
+            da.Fill(dt);
+            return dt;
+        }
     }
 }
