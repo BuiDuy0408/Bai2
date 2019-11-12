@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Bai2_TruongTHPT
 {
-    public partial class Giao_Vien : Form
+    public partial class QLGD : Form
     {
-        public Giao_Vien()
+        public QLGD()
         {
             InitializeComponent();
-        }
-
-        private void txtSDT_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label10_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
