@@ -22,10 +22,6 @@ namespace Bai2_TruongTHPT
 
         }
 
-        private void GroupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
         private void GetFileAll(string tenfile)
         {
             StreamReader doc = File.OpenText(tenfile);
