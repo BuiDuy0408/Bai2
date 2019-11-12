@@ -44,9 +44,10 @@
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label13.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label13.Location = new System.Drawing.Point(38, 84);
+            this.label13.Location = new System.Drawing.Point(45, 152);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(97, 21);
             this.label13.TabIndex = 12;
@@ -55,13 +56,15 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label2.Location = new System.Drawing.Point(81, 115);
+            this.label2.Location = new System.Drawing.Point(60, 180);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 21);
             this.label2.TabIndex = 17;
             this.label2.Text = "Pass :";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtUserName
             // 
@@ -80,11 +83,12 @@
             // 
             // btnDangNhap
             // 
+            this.btnDangNhap.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnDangNhap.Location = new System.Drawing.Point(158, 221);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(128, 43);
-            this.btnDangNhap.TabIndex = 20;
-            this.btnDangNhap.Text = "Đăng nhập";
+            this.btnDangNhap.TabIndex = 24;
+            this.btnDangNhap.Text = "Submit";
             this.btnDangNhap.UseVisualStyleBackColor = true;
             // 
             // btnThoat
@@ -101,7 +105,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(105, 83);
+            this.label3.Location = new System.Drawing.Point(55, 80);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(243, 22);
             this.label3.TabIndex = 22;
@@ -110,13 +114,15 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(354, 59);
+            this.pictureBox1.Location = new System.Drawing.Point(339, 39);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(218, 215);
             this.pictureBox1.TabIndex = 23;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
@@ -125,9 +131,10 @@
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(-40, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(314, 25);
+            this.label1.Size = new System.Drawing.Size(585, 25);
             this.label1.TabIndex = 24;
-            this.label1.Text = "                   Design by Thanh    ";
+            this.label1.Text = "                   Design by Thanh, Duy, Truong, DTruong,Hoc    ";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // frmDangNhap
             // 
