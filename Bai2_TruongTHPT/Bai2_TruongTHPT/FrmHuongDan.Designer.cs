@@ -47,8 +47,9 @@
             // 
             // treeView1
             // 
-            this.treeView1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.treeView1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.treeView1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.treeView1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.treeView1.LineColor = System.Drawing.Color.White;
             this.treeView1.Location = new System.Drawing.Point(0, 0);
             this.treeView1.Margin = new System.Windows.Forms.Padding(4);
