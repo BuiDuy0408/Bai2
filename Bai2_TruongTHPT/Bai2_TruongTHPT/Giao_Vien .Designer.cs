@@ -45,17 +45,13 @@
             this.cbMonHoc = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.btnThem = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnHuy = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.txtTKGV = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.dtpNgaySinhGV = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -226,16 +222,6 @@
             this.comboBox1.Size = new System.Drawing.Size(235, 24);
             this.comboBox1.TabIndex = 51;
             // 
-            // btnThem
-            // 
-            this.btnThem.Location = new System.Drawing.Point(288, 250);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(4);
-            this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(100, 42);
-            this.btnThem.TabIndex = 52;
-            this.btnThem.Text = "Thêm";
-            this.btnThem.UseVisualStyleBackColor = true;
-            // 
             // btnSua
             // 
             this.btnSua.Location = new System.Drawing.Point(574, 276);
@@ -294,17 +280,6 @@
             this.txtTKGV.Size = new System.Drawing.Size(235, 22);
             this.txtTKGV.TabIndex = 62;
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label10.Location = new System.Drawing.Point(73, 263);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(61, 17);
-            this.label10.TabIndex = 63;
-            this.label10.Text = "Lịch dạy";
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(580, 199);
@@ -314,26 +289,6 @@
             this.button1.TabIndex = 64;
             this.button1.Text = "Thêm";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(288, 319);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 42);
-            this.button2.TabIndex = 65;
-            this.button2.Text = "Sửa";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(429, 319);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 42);
-            this.button3.TabIndex = 66;
-            this.button3.Text = "Lưu";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // dtpNgaySinhGV
             // 
@@ -352,17 +307,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1407, 525);
             this.Controls.Add(this.dtpNgaySinhGV);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label10);
             this.Controls.Add(this.txtTKGV);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.btnSua);
-            this.Controls.Add(this.btnThem);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.cbMonHoc);
@@ -407,17 +358,13 @@
         private System.Windows.Forms.ComboBox cbMonHoc;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnLuu;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnHuy;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox txtTKGV;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DateTimePicker dtpNgaySinhGV;
     }
 }
