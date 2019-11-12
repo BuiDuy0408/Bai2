@@ -16,5 +16,10 @@ namespace Bai2_TruongTHPT
         {
             InitializeComponent();
         }
+
+        private void FrmHuongDan_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
