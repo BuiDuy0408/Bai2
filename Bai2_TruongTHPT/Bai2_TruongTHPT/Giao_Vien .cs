@@ -21,10 +21,5 @@ namespace Bai2_TruongTHPT
         {
 
         }
-
-        private void Label10_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

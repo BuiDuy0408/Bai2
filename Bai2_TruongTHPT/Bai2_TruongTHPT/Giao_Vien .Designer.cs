@@ -312,7 +312,7 @@
             this.label10.Size = new System.Drawing.Size(61, 17);
             this.label10.TabIndex = 63;
             this.label10.Text = "Lịch dạy";
-            this.label10.Click += new System.EventHandler(this.Label10_Click);
+            
             // 
             // button1
             // 
