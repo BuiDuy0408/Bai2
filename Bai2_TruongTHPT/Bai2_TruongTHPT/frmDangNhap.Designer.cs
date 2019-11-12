@@ -31,6 +31,8 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
+            this.txtPass = new System.Windows.Forms.TextBox();
+            this.btnDangNhap = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label13
@@ -60,11 +62,30 @@
             this.txtUserName.Size = new System.Drawing.Size(150, 20);
             this.txtUserName.TabIndex = 18;
             // 
+            // txtPass
+            // 
+            this.txtPass.Location = new System.Drawing.Point(158, 112);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
+            this.txtPass.Size = new System.Drawing.Size(150, 20);
+            this.txtPass.TabIndex = 19;
+            // 
+            // btnDangNhap
+            // 
+            this.btnDangNhap.Location = new System.Drawing.Point(158, 158);
+            this.btnDangNhap.Name = "btnDangNhap";
+            this.btnDangNhap.Size = new System.Drawing.Size(128, 43);
+            this.btnDangNhap.TabIndex = 20;
+            this.btnDangNhap.Text = "Đăng nhập";
+            this.btnDangNhap.UseVisualStyleBackColor = true;
+            // 
             // frmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(545, 261);
+            this.Controls.Add(this.btnDangNhap);
+            this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label13);
@@ -80,5 +101,7 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.TextBox txtPass;
+        private System.Windows.Forms.Button btnDangNhap;
     }
 }
