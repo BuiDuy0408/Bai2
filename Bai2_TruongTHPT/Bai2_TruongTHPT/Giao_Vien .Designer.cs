@@ -36,7 +36,6 @@
             this.txtMaGV = new System.Windows.Forms.TextBox();
             this.cbGTGV = new System.Windows.Forms.ComboBox();
             this.txtSDT = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.txtDiaChi = new System.Windows.Forms.TextBox();
@@ -57,6 +56,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.dtpNgaySinhGV = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,7 +83,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(340, 29);
+            this.label5.Location = new System.Drawing.Point(337, 31);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(48, 17);
@@ -138,14 +138,6 @@
             this.txtSDT.TabIndex = 35;
             this.txtSDT.TextChanged += new System.EventHandler(this.txtSDT_TextChanged);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(418, 74);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(235, 22);
-            this.textBox1.TabIndex = 36;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -159,7 +151,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(349, 126);
+            this.label9.Location = new System.Drawing.Point(337, 126);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(51, 17);
@@ -312,11 +304,10 @@
             this.label10.Size = new System.Drawing.Size(61, 17);
             this.label10.TabIndex = 63;
             this.label10.Text = "Lịch dạy";
-            
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(583, 200);
+            this.button1.Location = new System.Drawing.Point(580, 199);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 42);
@@ -344,11 +335,23 @@
             this.button3.Text = "Lưu";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // dtpNgaySinhGV
+            // 
+            this.dtpNgaySinhGV.CustomFormat = "MM/dd/yyyy";
+            this.dtpNgaySinhGV.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpNgaySinhGV.Location = new System.Drawing.Point(418, 77);
+            this.dtpNgaySinhGV.Margin = new System.Windows.Forms.Padding(4);
+            this.dtpNgaySinhGV.Name = "dtpNgaySinhGV";
+            this.dtpNgaySinhGV.Size = new System.Drawing.Size(235, 22);
+            this.dtpNgaySinhGV.TabIndex = 67;
+            this.dtpNgaySinhGV.Value = new System.DateTime(2015, 11, 13, 0, 0, 0, 0);
+            // 
             // Giao_Vien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1407, 525);
+            this.Controls.Add(this.dtpNgaySinhGV);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -369,7 +372,6 @@
             this.Controls.Add(this.txtDiaChi);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txtSDT);
             this.Controls.Add(this.cbGTGV);
             this.Controls.Add(this.txtMaGV);
@@ -396,7 +398,6 @@
         private System.Windows.Forms.TextBox txtMaGV;
         private System.Windows.Forms.ComboBox cbGTGV;
         private System.Windows.Forms.TextBox txtSDT;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtDiaChi;
@@ -417,5 +418,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.DateTimePicker dtpNgaySinhGV;
     }
 }
