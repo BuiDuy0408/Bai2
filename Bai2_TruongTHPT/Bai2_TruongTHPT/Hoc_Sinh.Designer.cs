@@ -89,6 +89,7 @@
             this.txtMa_HS.Name = "txtMa_HS";
             this.txtMa_HS.Size = new System.Drawing.Size(235, 22);
             this.txtMa_HS.TabIndex = 52;
+            this.txtMa_HS.TextChanged += new System.EventHandler(this.TxtMa_HS_TextChanged);
             // 
             // label16
             // 
@@ -302,6 +303,7 @@
             this.dgvHocSinh.Location = new System.Drawing.Point(3, 18);
             this.dgvHocSinh.Margin = new System.Windows.Forms.Padding(4);
             this.dgvHocSinh.Name = "dgvHocSinh";
+            this.dgvHocSinh.RowHeadersWidth = 51;
             this.dgvHocSinh.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvHocSinh.Size = new System.Drawing.Size(1114, 189);
             this.dgvHocSinh.TabIndex = 1;
@@ -311,6 +313,7 @@
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Column1.DataPropertyName = "MaHS";
             this.Column1.HeaderText = "Mã HS";
+            this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
             // 
             // Column2
@@ -318,6 +321,7 @@
             this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Column2.DataPropertyName = "HovaTen";
             this.Column2.HeaderText = "Họ Tên";
+            this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
             // 
             // Column3
@@ -325,6 +329,7 @@
             this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Column3.DataPropertyName = "GT";
             this.Column3.HeaderText = "GT";
+            this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
             // 
             // Column4
@@ -332,6 +337,7 @@
             this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Column4.DataPropertyName = "NgaySinh";
             this.Column4.HeaderText = "Ngày Sinh";
+            this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
             // 
             // Column5
@@ -339,6 +345,7 @@
             this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Column5.DataPropertyName = "DiaChi";
             this.Column5.HeaderText = "Địa Chỉ";
+            this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
             // 
             // Column6
@@ -346,6 +353,7 @@
             this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Column6.DataPropertyName = "PhuHuynh";
             this.Column6.HeaderText = "Phụ Huynh";
+            this.Column6.MinimumWidth = 6;
             this.Column6.Name = "Column6";
             // 
             // Column7
@@ -353,6 +361,7 @@
             this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Column7.DataPropertyName = "TenLop";
             this.Column7.HeaderText = "Mã Lớp";
+            this.Column7.MinimumWidth = 6;
             this.Column7.Name = "Column7";
             // 
             // Hoc_Sinh
