@@ -16,5 +16,10 @@ namespace Bai2_TruongTHPT
         {
             InitializeComponent();
         }
+
+        private void txtSDT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
