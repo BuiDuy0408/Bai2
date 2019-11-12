@@ -72,28 +72,5 @@ namespace Bai2_TruongTHPT
                 SetNull();
             }
         }
-        private void Hoc_Sinh_Load(object sender, EventArgs e)
-        {
-            KhoiTao();
-            //dgvHocSinh.DataSource = hs.Show();
-
-            //cbLop.DataSource = hs.LayThongTinLop();
-            cbLop.DisplayMember = "TenLop";
-            cbLop.ValueMember = "MaLop";
-            cbLop.SelectedValue = "MaLop";
-            //chon = 0;
-        }
-        private void btnHuy_Click(object sender, EventArgs e)
-        {
-            Hoc_Sinh_Load(sender, e);
-            SetNull();
-        }
-
-        private void btnThem_HS_Click(object sender, EventArgs e)
-        {
-            Mo();
-            SetNull();
-            //chon = 2;
-        }
     }
 }
