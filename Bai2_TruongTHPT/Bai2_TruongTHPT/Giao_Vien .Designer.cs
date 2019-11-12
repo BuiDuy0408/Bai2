@@ -85,6 +85,7 @@
             this.label5.Size = new System.Drawing.Size(48, 17);
             this.label5.TabIndex = 27;
             this.label5.Text = "Số ĐT";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // txtHoTenGV
             // 
@@ -224,7 +225,7 @@
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(574, 276);
+            this.btnSua.Location = new System.Drawing.Point(580, 276);
             this.btnSua.Margin = new System.Windows.Forms.Padding(4);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(100, 42);
@@ -254,7 +255,7 @@
             // 
             // btnHuy
             // 
-            this.btnHuy.Location = new System.Drawing.Point(710, 348);
+            this.btnHuy.Location = new System.Drawing.Point(710, 355);
             this.btnHuy.Margin = new System.Windows.Forms.Padding(4);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(100, 42);
@@ -282,6 +283,7 @@
             // 
             // button1
             // 
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.button1.Location = new System.Drawing.Point(580, 199);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
