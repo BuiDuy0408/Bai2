@@ -68,6 +68,28 @@ namespace Bai2_TruongTHPT
         {
             this.Close();
         }
+        private void QLGD_Load(object sender, EventArgs e)
+        {
+            cboTenLop.DataSource = l.Show();
+            cboTenLop.DisplayMember = "TenLop";
+            cboTenLop.ValueMember = "MaLop";
+            cboTenLop.SelectedValue = "MaLop";
+            cboTenLop.SelectedIndex = 0;
+            cboTenMon.DataSource = mh.Show();
+            cboTenMon.DisplayMember = "TenMon";
+            cboTenMon.ValueMember = "MaMon";
+            cboTenMon.SelectedValue = "MaMon";
+            cboTenMon.SelectedIndex = 0;
+            cboTenMon.Enabled = cboTenGV.Enabled = false;
+        }
+
+        private void btnTim_Click(object sender, EventArgs e)
+        {
+            if (cboTenLop.Text != "")
+            {
+                //dataGridView1.DataSource = ct.Show(cboTenLop.Text);
+            }
+        }
         private void CboTenLop_SelectedIndexChanged(object sender, EventArgs e)
         {
 
