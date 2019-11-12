@@ -54,5 +54,10 @@ namespace Bai2_TruongTHPT
         {
             label1.ForeColor = Color.Red;
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

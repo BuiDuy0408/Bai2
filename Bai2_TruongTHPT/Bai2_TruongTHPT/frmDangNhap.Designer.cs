@@ -44,9 +44,10 @@
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label13.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label13.Location = new System.Drawing.Point(38, 84);
+            this.label13.Location = new System.Drawing.Point(45, 152);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(97, 21);
             this.label13.TabIndex = 12;
@@ -55,13 +56,15 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label2.Location = new System.Drawing.Point(81, 115);
+            this.label2.Location = new System.Drawing.Point(60, 180);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 21);
             this.label2.TabIndex = 17;
             this.label2.Text = "Pass :";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtUserName
             // 
