@@ -90,6 +90,18 @@ namespace Bai2_TruongTHPT
                 //dataGridView1.DataSource = ct.Show(cboTenLop.Text);
             }
         }
+        private void cboTenMon_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cboTenGV.DataSource = gv.Show(cboTenMon.Text);
+            cboTenGV.DisplayMember = "HoTen";
+            cboTenGV.ValueMember = "MaGV";
+            cboTenGV.SelectedValue = "MaGV";
+            if (cboTenGV.Items.Count > 0)
+            {
+                cboTenGV.SelectedIndex = 0;
+            }
+        }
+
         private void CboTenLop_SelectedIndexChanged(object sender, EventArgs e)
         {
 
