@@ -47,6 +47,9 @@
             this.btnXoa_HS = new System.Windows.Forms.Button();
             this.btnSua_HS = new System.Windows.Forms.Button();
             this.btnThem_HS = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtTK_HS = new System.Windows.Forms.TextBox();
+            this.cbTK_HS = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // txtHoTen_HS
@@ -232,11 +235,44 @@
             this.btnThem_HS.Text = "Thêm";
             this.btnThem_HS.UseVisualStyleBackColor = true;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(60, 300);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(64, 17);
+            this.label9.TabIndex = 78;
+            this.label9.Text = "Tìm kiếm";
+            // 
+            // txtTK_HS
+            // 
+            this.txtTK_HS.Location = new System.Drawing.Point(465, 292);
+            this.txtTK_HS.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTK_HS.Name = "txtTK_HS";
+            this.txtTK_HS.Size = new System.Drawing.Size(316, 22);
+            this.txtTK_HS.TabIndex = 77;
+            // 
+            // cbTK_HS
+            // 
+            this.cbTK_HS.FormattingEnabled = true;
+            this.cbTK_HS.Items.AddRange(new object[] {
+            "Mã",
+            "Họ Tên"});
+            this.cbTK_HS.Location = new System.Drawing.Point(155, 290);
+            this.cbTK_HS.Margin = new System.Windows.Forms.Padding(4);
+            this.cbTK_HS.Name = "cbTK_HS";
+            this.cbTK_HS.Size = new System.Drawing.Size(235, 24);
+            this.cbTK_HS.TabIndex = 76;
+            // 
             // Hoc_Sinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1181, 560);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.txtTK_HS);
+            this.Controls.Add(this.cbTK_HS);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.btnLuu_HS);
             this.Controls.Add(this.btnXoa_HS);
@@ -284,5 +320,8 @@
         private System.Windows.Forms.Button btnXoa_HS;
         private System.Windows.Forms.Button btnSua_HS;
         private System.Windows.Forms.Button btnThem_HS;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtTK_HS;
+        private System.Windows.Forms.ComboBox cbTK_HS;
     }
 }
