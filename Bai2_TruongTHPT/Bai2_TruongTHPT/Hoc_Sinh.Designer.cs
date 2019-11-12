@@ -36,6 +36,17 @@
             this.cbGT_HS = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.txtDiaChi = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dtpNgaySinh_HS = new System.Windows.Forms.DateTimePicker();
+            this.txtPhuHuynh = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.btnHuy = new System.Windows.Forms.Button();
+            this.btnLuu_HS = new System.Windows.Forms.Button();
+            this.btnXoa_HS = new System.Windows.Forms.Button();
+            this.btnSua_HS = new System.Windows.Forms.Button();
+            this.btnThem_HS = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtHoTen_HS
@@ -116,11 +127,127 @@
             this.label14.TabIndex = 55;
             this.label14.Text = "Giới Tính";
             // 
+            // txtDiaChi
+            // 
+            this.txtDiaChi.Location = new System.Drawing.Point(542, 140);
+            this.txtDiaChi.Margin = new System.Windows.Forms.Padding(4);
+            this.txtDiaChi.Name = "txtDiaChi";
+            this.txtDiaChi.Size = new System.Drawing.Size(235, 22);
+            this.txtDiaChi.TabIndex = 70;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(430, 143);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(53, 17);
+            this.label1.TabIndex = 69;
+            this.label1.Text = "Địa Chỉ";
+            // 
+            // dtpNgaySinh_HS
+            // 
+            this.dtpNgaySinh_HS.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpNgaySinh_HS.Location = new System.Drawing.Point(542, 85);
+            this.dtpNgaySinh_HS.Margin = new System.Windows.Forms.Padding(4);
+            this.dtpNgaySinh_HS.Name = "dtpNgaySinh_HS";
+            this.dtpNgaySinh_HS.Size = new System.Drawing.Size(235, 22);
+            this.dtpNgaySinh_HS.TabIndex = 68;
+            // 
+            // txtPhuHuynh
+            // 
+            this.txtPhuHuynh.Location = new System.Drawing.Point(542, 31);
+            this.txtPhuHuynh.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPhuHuynh.Name = "txtPhuHuynh";
+            this.txtPhuHuynh.Size = new System.Drawing.Size(235, 22);
+            this.txtPhuHuynh.TabIndex = 67;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(430, 35);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(78, 17);
+            this.label12.TabIndex = 65;
+            this.label12.Text = "Phụ Huynh";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(430, 89);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(73, 17);
+            this.label13.TabIndex = 66;
+            this.label13.Text = "Ngày Sinh";
+            // 
+            // btnHuy
+            // 
+            this.btnHuy.Location = new System.Drawing.Point(1022, 150);
+            this.btnHuy.Margin = new System.Windows.Forms.Padding(4);
+            this.btnHuy.Name = "btnHuy";
+            this.btnHuy.Size = new System.Drawing.Size(100, 42);
+            this.btnHuy.TabIndex = 75;
+            this.btnHuy.Text = "Hủy";
+            this.btnHuy.UseVisualStyleBackColor = true;
+            // 
+            // btnLuu_HS
+            // 
+            this.btnLuu_HS.Location = new System.Drawing.Point(1022, 91);
+            this.btnLuu_HS.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLuu_HS.Name = "btnLuu_HS";
+            this.btnLuu_HS.Size = new System.Drawing.Size(100, 42);
+            this.btnLuu_HS.TabIndex = 74;
+            this.btnLuu_HS.Text = "Lưu";
+            this.btnLuu_HS.UseVisualStyleBackColor = true;
+            // 
+            // btnXoa_HS
+            // 
+            this.btnXoa_HS.Location = new System.Drawing.Point(1022, 32);
+            this.btnXoa_HS.Margin = new System.Windows.Forms.Padding(4);
+            this.btnXoa_HS.Name = "btnXoa_HS";
+            this.btnXoa_HS.Size = new System.Drawing.Size(100, 42);
+            this.btnXoa_HS.TabIndex = 73;
+            this.btnXoa_HS.Text = "Xóa";
+            this.btnXoa_HS.UseVisualStyleBackColor = true;
+            // 
+            // btnSua_HS
+            // 
+            this.btnSua_HS.Location = new System.Drawing.Point(897, 91);
+            this.btnSua_HS.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSua_HS.Name = "btnSua_HS";
+            this.btnSua_HS.Size = new System.Drawing.Size(100, 42);
+            this.btnSua_HS.TabIndex = 72;
+            this.btnSua_HS.Text = "Sửa";
+            this.btnSua_HS.UseVisualStyleBackColor = true;
+            // 
+            // btnThem_HS
+            // 
+            this.btnThem_HS.Location = new System.Drawing.Point(897, 32);
+            this.btnThem_HS.Margin = new System.Windows.Forms.Padding(4);
+            this.btnThem_HS.Name = "btnThem_HS";
+            this.btnThem_HS.Size = new System.Drawing.Size(100, 42);
+            this.btnThem_HS.TabIndex = 71;
+            this.btnThem_HS.Text = "Thêm";
+            this.btnThem_HS.UseVisualStyleBackColor = true;
+            // 
             // Hoc_Sinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(950, 510);
+            this.ClientSize = new System.Drawing.Size(1181, 560);
+            this.Controls.Add(this.btnHuy);
+            this.Controls.Add(this.btnLuu_HS);
+            this.Controls.Add(this.btnXoa_HS);
+            this.Controls.Add(this.btnSua_HS);
+            this.Controls.Add(this.btnThem_HS);
+            this.Controls.Add(this.txtDiaChi);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.dtpNgaySinh_HS);
+            this.Controls.Add(this.txtPhuHuynh);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.cbLop);
             this.Controls.Add(this.cbGT_HS);
             this.Controls.Add(this.label10);
@@ -146,5 +273,16 @@
         private System.Windows.Forms.ComboBox cbGT_HS;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox txtDiaChi;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DateTimePicker dtpNgaySinh_HS;
+        private System.Windows.Forms.TextBox txtPhuHuynh;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button btnHuy;
+        private System.Windows.Forms.Button btnLuu_HS;
+        private System.Windows.Forms.Button btnXoa_HS;
+        private System.Windows.Forms.Button btnSua_HS;
+        private System.Windows.Forms.Button btnThem_HS;
     }
 }
