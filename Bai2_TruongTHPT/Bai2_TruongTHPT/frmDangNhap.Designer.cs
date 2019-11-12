@@ -94,12 +94,13 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(62, 42);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(333, 22);
+            this.label3.Size = new System.Drawing.Size(243, 22);
             this.label3.TabIndex = 22;
-            this.label3.Text = "Đăng nhập hệ thống quản lý trường học";
+            this.label3.Text = "Hệ thống quản lý trường học";
+            this.label3.UseMnemonic = false;
             // 
             // frmDangNhap
             // 
