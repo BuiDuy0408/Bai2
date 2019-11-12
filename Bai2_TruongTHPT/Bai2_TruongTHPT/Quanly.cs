@@ -40,5 +40,27 @@ namespace Bai2_TruongTHPT
             dataGridView1.DataSource = ct.Show(cboTenMon.Text);
             MessageBox.Show("Xóa dữ liệu thành công");
         }
+        private void btnLuu_Click(object sender, EventArgs e)
+        {
+            if (selection == 1)
+            {
+                ct.ThemCTGD(cboTenLop.SelectedValue.ToString(), cboTenMon.SelectedValue.ToString(),
+                                cboTenGV.SelectedValue.ToString(), dateTimePicker1.Value, Convert.ToInt32(txtTiet.Text));
+                MessageBox.Show("Thêm dữ liệu thành công");
+            }
+            else if (selection == 2)
+            {
+                ct.SuaCTGD(cboTenLop.SelectedValue.ToString(), cboTenMon.SelectedValue.ToString(),
+                                cboTenGV.SelectedValue.ToString(), Convert.ToDateTime(dateTimePicker1.Text), Convert.ToInt32(txtTiet.Text));
+                MessageBox.Show("Sửa dữ liệu thành công");
+            }
+
+            //MessageBox.Show(dateTimePicker1.Value.);
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
