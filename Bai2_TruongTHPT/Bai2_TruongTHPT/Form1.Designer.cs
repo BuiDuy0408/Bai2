@@ -88,6 +88,7 @@
             this.thôngTinGiảngDạyToolStripMenuItem.Name = "thôngTinGiảngDạyToolStripMenuItem";
             this.thôngTinGiảngDạyToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.thôngTinGiảngDạyToolStripMenuItem.Text = "Thông tin giảng dạy";
+            this.thôngTinGiảngDạyToolStripMenuItem.Click += new System.EventHandler(this.thôngTinGiảngDạyToolStripMenuItem_Click);
             // 
             // toolStripMenuItem2
             // 
@@ -99,6 +100,7 @@
             this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
             this.thoátToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.thoátToolStripMenuItem.Text = "Thoát";
+            this.thoátToolStripMenuItem.Click += new System.EventHandler(this.thoátToolStripMenuItem_Click);
             // 
             // hướngDẫnSửDụngToolStripMenuItem
             // 

@@ -28,5 +28,15 @@ namespace Bai2_TruongTHPT
             HocSinh hs = new HocSinh();
             hs.Show();
         }
+
+        private void thôngTinGiảngDạyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
