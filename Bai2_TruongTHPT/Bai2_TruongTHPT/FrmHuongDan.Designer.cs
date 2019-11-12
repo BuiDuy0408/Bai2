@@ -1,6 +1,6 @@
 ﻿namespace Bai2_TruongTHPT
 {
-    partial class FrmHuongDan
+    partial class frmHuongDan
     {
         /// <summary>
         /// Required designer variable.
@@ -28,45 +28,76 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Đăng nhập");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Màn hình chính");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Quản lý giáo viên");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Quản lý học sinh");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Quản lý giảng dạy");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Các chức năng", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2,
+            treeNode3,
+            treeNode4,
+            treeNode5});
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Giới thiệu phần mềm", new System.Windows.Forms.TreeNode[] {
+            treeNode6});
+            this.treeView1 = new System.Windows.Forms.TreeView();
+            this.txtGioiThieu = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // treeView1
             // 
-            this.groupBox1.Location = new System.Drawing.Point(0, 3);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(258, 253);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.treeView1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.treeView1.Location = new System.Drawing.Point(0, 0);
+            this.treeView1.Margin = new System.Windows.Forms.Padding(4);
+            this.treeView1.Name = "treeView1";
+            treeNode1.Name = "gtDangNhap";
+            treeNode1.Text = "Đăng nhập";
+            treeNode2.Name = "gtManHinhChinh";
+            treeNode2.Text = "Màn hình chính";
+            treeNode3.Name = "gtGiaoVien";
+            treeNode3.Text = "Quản lý giáo viên";
+            treeNode4.Name = "gtHocSinh";
+            treeNode4.Text = "Quản lý học sinh";
+            treeNode5.Name = "gtQLGD";
+            treeNode5.Text = "Quản lý giảng dạy";
+            treeNode6.Name = "gtChucNang";
+            treeNode6.Text = "Các chức năng";
+            treeNode7.Name = "gtPhanMem";
+            treeNode7.Text = "Giới thiệu phần mềm";
+            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode7});
+            this.treeView1.Size = new System.Drawing.Size(196, 480);
+            this.treeView1.TabIndex = 2;
             // 
-            // groupBox2
+            // txtGioiThieu
             // 
-            this.groupBox2.Location = new System.Drawing.Point(0, 262);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(885, 224);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.txtGioiThieu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtGioiThieu.Location = new System.Drawing.Point(196, 0);
+            this.txtGioiThieu.Margin = new System.Windows.Forms.Padding(4);
+            this.txtGioiThieu.Multiline = true;
+            this.txtGioiThieu.Name = "txtGioiThieu";
+            this.txtGioiThieu.Size = new System.Drawing.Size(689, 480);
+            this.txtGioiThieu.TabIndex = 4;
             // 
-            // FrmHuongDan
+            // frmHuongDan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(885, 480);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Name = "FrmHuongDan";
+            this.Controls.Add(this.txtGioiThieu);
+            this.Controls.Add(this.treeView1);
+            this.Name = "frmHuongDan";
             this.Text = "FrmHuongDan";
             this.Load += new System.EventHandler(this.FrmHuongDan_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.TextBox txtGioiThieu;
     }
 }

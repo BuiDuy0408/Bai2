@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace Bai2_TruongTHPT
 {
-    public partial class FrmHuongDan : Form
+    public partial class frmHuongDan : Form
     {
-        public FrmHuongDan()
+        public frmHuongDan()
         {
             InitializeComponent();
         }
 
         private void FrmHuongDan_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GroupBox1_Enter(object sender, EventArgs e)
         {
 
         }
