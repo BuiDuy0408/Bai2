@@ -31,12 +31,13 @@ namespace Bai2_TruongTHPT
 
         private void thôngTinGiảngDạyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            CTGD frm = new CTGD();
         }
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            if (MessageBox.Show("Bạn Muốn Thoát Ứng dụng này?", "Question", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                Application.Exit();
         }
     }
 }
