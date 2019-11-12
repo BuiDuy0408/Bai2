@@ -63,6 +63,12 @@
     <Compile Include="FrmHuongDan.Designer.cs">
       <DependentUpon>FrmHuongDan.cs</DependentUpon>
     </Compile>
+    <Compile Include="Giao_Vien .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giao_Vien .Designer.cs">
+      <DependentUpon>Giao_Vien .cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -73,6 +79,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmHuongDan.resx">
       <DependentUpon>FrmHuongDan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giao_Vien .resx">
+      <DependentUpon>Giao_Vien .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
