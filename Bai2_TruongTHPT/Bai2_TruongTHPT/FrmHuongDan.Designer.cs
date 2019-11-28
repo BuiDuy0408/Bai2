@@ -101,9 +101,8 @@
         }
 
         #endregion
-
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TreeView treeView1;
         private System.Windows.Forms.TextBox txtGioiThieu;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
