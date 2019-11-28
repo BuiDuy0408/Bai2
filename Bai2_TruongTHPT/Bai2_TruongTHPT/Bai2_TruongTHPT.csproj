@@ -83,12 +83,6 @@
     <Compile Include="QLGD.Designer.cs">
       <DependentUpon>QLGD.cs</DependentUpon>
     </Compile>
-    <Compile Include="Quanly.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Quanly.Designer.cs">
-      <DependentUpon>Quanly.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,9 +109,6 @@
     </Compile>
     <EmbeddedResource Include="QLGD.resx">
       <DependentUpon>QLGD.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Quanly.resx">
-      <DependentUpon>Quanly.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
